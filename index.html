@@ -1,1 +1,116 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ali Sami — Portfolio</title>
+  <meta name="description" content="3D art, software development, and creative technology projects.">
+  <meta property="og:title" content="Ali Sami — Portfolio">
+  <meta property="og:description" content="3D art, software development, and creative technology projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.svg">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
+  <style>
+    /* Allow explicit light/dark override via [data-theme] */
+    [data-theme="light"] { color-scheme: light; }
+    [data-theme="dark"]  { color-scheme: dark; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/logo.svg" alt="" width="28" height="28" />
+        <span>Ali Sami</span>
+      </a>
+      <div class="menu" role="navigation" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="projects.html" >Projects</a>
+        <a href="about.html" >About</a>
+        <a href="contact.html" >Contact</a>
+        <button class="theme-toggle" data-theme-toggle type="button" title="Toggle theme">Theme</button>
+      </div>
+    </div>
+  </nav>
+
+  
+<header class="hero">
+  <div class="container hero-inner">
+    <div>
+      <div class="kicker">Portfolio</div>
+      <h1 class="h1">Hi, I’m Ali; I make stuff.</h1>
+      <p class="lead">I enjoy turning ideas into clean, performant apps and visuals. I’m into SwiftUI, Python, Blender, and creative tech.</p>
+      <div class="badges">
+        <span class="badge">Swift 6.2</span>
+        <span class="badge">iOS · SwiftUI</span>
+        <span class="badge">Python</span>
+      </div>
+      <p style="margin:18px 0 0">
+        <a class="button" href="projects.html">See Projects</a>
+        <a class="inline" style="margin-left:14px" href="about.html">About me →</a>
+      </p>
+    </div>
+    <figure class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#4ea1ff"/>
+            <stop offset="1" stop-color="#9b7bff"/>
+          </linearGradient>
+        </defs>
+        <circle cx="20" cy="20" r="8" fill="url(#glow)"/>
+        <circle cx="80" cy="30" r="5" fill="url(#glow)"/>
+        <circle cx="60" cy="80" r="10" fill="url(#glow)"/>
+        <rect x="30" y="40" width="40" height="20" rx="4" fill="url(#glow)" opacity=".25"/>
+      </svg>
+    </figure>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>What I do</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="pill">Software</div>
+        <h3>iOS + SwiftUI</h3>
+        <p>Clean architecture, modern concurrency, and polished UI. I’ve built everything from onboarding data flows, to CloudKit sync, to Firebase integration.</p>
+      </div>
+      <div class="card">
+        <div class="pill">Visual</div>
+        <h3>3D Art & Modeling</h3>
+        <p>Hard-surface modeling and stylized renders.</p>
+      </div>
+      <div class="card">
+        <div class="pill">Tools</div>
+        <h3>Python & Automation</h3>
+        <p>CLI tools and scripts that keep projects fast and repeatable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Highlights</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>Complexion (iOS)</h3>
+        <p class="tagline">Skincare routine manager with SwiftData and CloudKit-ready architecture.</p>
+        <div class="badges"><span class="badge">SwiftUI</span><span class="badge">SwiftData</span><span class="badge">Design</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div>© 2025 Ali Sami. Built with static HTML/CSS on GitHub Pages.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
