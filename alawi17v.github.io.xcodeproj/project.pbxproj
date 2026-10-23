@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXFileReference section */
+		EACB7BE4308AF4500006C6BE /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EACB7BE5308AF4500006C6BE /* nbt-sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nbt-sheet.png"; sourceTree = "<group>"; };
+		EACB7BE7308AF4500006C6BE /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EACB7BE8308AF4500006C6BE /* root.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = root.json; sourceTree = "<group>"; };
+		EACB7BEA308AF4500006C6BE /* .htaccess */ = {isa = PBXFileReference; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		EACB7BEC308AF4500006C6BE /* file_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_sprite.png; sourceTree = "<group>"; };
+		EACB7BED308AF4500006C6BE /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		EACB7BEF308AF4500006C6BE /* class.db.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = class.db.php; sourceTree = "<group>"; };
+		EACB7BF0308AF4500006C6BE /* class.tree.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = class.tree.php; sourceTree = "<group>"; };
+		EACB7BF1308AF4500006C6BE /* data.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.sql; sourceTree = "<group>"; };
+		EACB7BF2308AF4500006C6BE /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		EACB7BF5308AF4500006C6BE /* 32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32px.png; sourceTree = "<group>"; };
+		EACB7BF6308AF4500006C6BE /* 40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40px.png; sourceTree = "<group>"; };
+		EACB7BF7308AF4500006C6BE /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		EACB7BF8308AF4500006C6BE /* style.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.min.css; sourceTree = "<group>"; };
+		EACB7BF9308AF4500006C6BE /* throbber.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = throbber.gif; sourceTree = "<group>"; };
+		EACB7BFB308AF4500006C6BE /* 32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32px.png; sourceTree = "<group>"; };
+		EACB7BFC308AF4500006C6BE /* 40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40px.png; sourceTree = "<group>"; };
+		EACB7BFD308AF4500006C6BE /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		EACB7BFE308AF4500006C6BE /* style.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.min.css; sourceTree = "<group>"; };
+		EACB7BFF308AF4500006C6BE /* throbber.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = throbber.gif; sourceTree = "<group>"; };
+		EACB7C02308AF4500006C6BE /* jstree.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.js; sourceTree = "<group>"; };
+		EACB7C03308AF4500006C6BE /* jstree.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.min.js; sourceTree = "<group>"; };
+		EACB7C05308AF4500006C6BE /* 32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32px.png; sourceTree = "<group>"; };
+		EACB7C06308AF4500006C6BE /* 40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40px.png; sourceTree = "<group>"; };
+		EACB7C07308AF4500006C6BE /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		EACB7C08308AF4500006C6BE /* style.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = style.less; sourceTree = "<group>"; };
+		EACB7C09308AF4500006C6BE /* throbber.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = throbber.gif; sourceTree = "<group>"; };
+		EACB7C0B308AF4500006C6BE /* 32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32px.png; sourceTree = "<group>"; };
+		EACB7C0C308AF4500006C6BE /* 40px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40px.png; sourceTree = "<group>"; };
+		EACB7C0D308AF4500006C6BE /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		EACB7C0E308AF4500006C6BE /* style.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = style.less; sourceTree = "<group>"; };
+		EACB7C0F308AF4500006C6BE /* throbber.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = throbber.gif; sourceTree = "<group>"; };
+		EACB7C11308AF4500006C6BE /* base.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = base.less; sourceTree = "<group>"; };
+		EACB7C12308AF4500006C6BE /* main.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.less; sourceTree = "<group>"; };
+		EACB7C13308AF4500006C6BE /* mixins.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = mixins.less; sourceTree = "<group>"; };
+		EACB7C14308AF4500006C6BE /* responsive.less */ = {isa = PBXFileReference; lastKnownFileType = text; path = responsive.less; sourceTree = "<group>"; };
+		EACB7C16308AF4500006C6BE /* intro.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
+		EACB7C17308AF4500006C6BE /* jstree.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.js; sourceTree = "<group>"; };
+		EACB7C18308AF4500006C6BE /* jstree.checkbox.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.checkbox.js; sourceTree = "<group>"; };
+		EACB7C19308AF4500006C6BE /* jstree.contextmenu.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.contextmenu.js; sourceTree = "<group>"; };
+		EACB7C1A308AF4500006C6BE /* jstree.dnd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.dnd.js; sourceTree = "<group>"; };
+		EACB7C1B308AF4500006C6BE /* jstree.search.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.search.js; sourceTree = "<group>"; };
+		EACB7C1C308AF4500006C6BE /* jstree.sort.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.sort.js; sourceTree = "<group>"; };
+		EACB7C1D308AF4500006C6BE /* jstree.state.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.state.js; sourceTree = "<group>"; };
+		EACB7C1E308AF4500006C6BE /* jstree.types.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.types.js; sourceTree = "<group>"; };
+		EACB7C1F308AF4500006C6BE /* jstree.unique.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.unique.js; sourceTree = "<group>"; };
+		EACB7C20308AF4500006C6BE /* jstree.wholerow.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jstree.wholerow.js; sourceTree = "<group>"; };
+		EACB7C21308AF4500006C6BE /* misc.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = misc.js; sourceTree = "<group>"; };
+		EACB7C22308AF4500006C6BE /* outro.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = outro.js; sourceTree = "<group>"; };
+		EACB7C23308AF4500006C6BE /* sample.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = sample.js; sourceTree = "<group>"; };
+		EACB7C24308AF4500006C6BE /* vakata-jstree.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "vakata-jstree.js"; sourceTree = "<group>"; };
+		EACB7C26308AF4500006C6BE /* qunit.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = qunit.css; sourceTree = "<group>"; };
+		EACB7C27308AF4500006C6BE /* qunit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = qunit.js; sourceTree = "<group>"; };
+		EACB7C29308AF4500006C6BE /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EACB7C2A308AF4500006C6BE /* test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		EACB7C2C308AF4500006C6BE /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		EACB7C2D308AF4500006C6BE /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		EACB7C2F308AF4500006C6BE /* d.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = d.html; sourceTree = "<group>"; };
+		EACB7C30308AF4500006C6BE /* m.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = m.html; sourceTree = "<group>"; };
+		EACB7C33308AF4500006C6BE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EACB7C34308AF4500006C6BE /* bower.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bower.json; sourceTree = "<group>"; };
+		EACB7C35308AF4500006C6BE /* component.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = component.json; sourceTree = "<group>"; };
+		EACB7C36308AF4500006C6BE /* composer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = composer.json; sourceTree = "<group>"; };
+		EACB7C37308AF4500006C6BE /* gruntfile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gruntfile.js; sourceTree = "<group>"; };
+		EACB7C38308AF4500006C6BE /* jstree.jquery.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jstree.jquery.json; sourceTree = "<group>"; };
+		EACB7C39308AF4500006C6BE /* LICENSE-MIT */ = {isa = PBXFileReference; lastKnownFileType = text; path = "LICENSE-MIT"; sourceTree = "<group>"; };
+		EACB7C3A308AF4500006C6BE /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		EACB7C3B308AF4500006C6BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EACB7C3D308AF4500006C6BE /* FileSaver.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FileSaver.min.js; sourceTree = "<group>"; };
+		EACB7C3F308AF4500006C6BE /* App.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = App.js; sourceTree = "<group>"; };
+		EACB7C40308AF4500006C6BE /* HighlightedString.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = HighlightedString.js; sourceTree = "<group>"; };
+		EACB7C41308AF4500006C6BE /* TagLibrary.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TagLibrary.js; sourceTree = "<group>"; };
+		EACB7C43308AF4500006C6BE /* app.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = app.css; sourceTree = "<group>"; };
+		EACB7C45308AF4500006C6BE /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		EACB7C46308AF4500006C6BE /* NBT.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NBT.js; sourceTree = "<group>"; };
+		EACB7C47308AF4500006C6BE /* NBT.wasm */ = {isa = PBXFileReference; lastKnownFileType = file; path = NBT.wasm; sourceTree = "<group>"; };
+		EACB7C48308AF4500006C6BE /* NBT.wat */ = {isa = PBXFileReference; lastKnownFileType = text; path = NBT.wat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		000000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				EACB7BE4308AF4500006C6BE /* index.html */,
+				EACB7C49308AF4500006C6BE /* webNBT */,
+				000000000000000000000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EACB7BE6308AF4500006C6BE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BE5308AF4500006C6BE /* nbt-sheet.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		EACB7BE9308AF4500006C6BE /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BE7308AF4500006C6BE /* index.html */,
+				EACB7BE8308AF4500006C6BE /* root.json */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
+		EACB7BEB308AF4500006C6BE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BEA308AF4500006C6BE /* .htaccess */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EACB7BEE308AF4500006C6BE /* filebrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BEB308AF4500006C6BE /* data */,
+				EACB7BEC308AF4500006C6BE /* file_sprite.png */,
+				EACB7BED308AF4500006C6BE /* index.php */,
+			);
+			path = filebrowser;
+			sourceTree = "<group>";
+		};
+		EACB7BF3308AF4500006C6BE /* sitebrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BEF308AF4500006C6BE /* class.db.php */,
+				EACB7BF0308AF4500006C6BE /* class.tree.php */,
+				EACB7BF1308AF4500006C6BE /* data.sql */,
+				EACB7BF2308AF4500006C6BE /* index.php */,
+			);
+			path = sitebrowser;
+			sourceTree = "<group>";
+		};
+		EACB7BF4308AF4500006C6BE /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BE9308AF4500006C6BE /* basic */,
+				EACB7BEE308AF4500006C6BE /* filebrowser */,
+				EACB7BF3308AF4500006C6BE /* sitebrowser */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		EACB7BFA308AF4500006C6BE /* default */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BF5308AF4500006C6BE /* 32px.png */,
+				EACB7BF6308AF4500006C6BE /* 40px.png */,
+				EACB7BF7308AF4500006C6BE /* style.css */,
+				EACB7BF8308AF4500006C6BE /* style.min.css */,
+				EACB7BF9308AF4500006C6BE /* throbber.gif */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		EACB7C00308AF4500006C6BE /* default-dark */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BFB308AF4500006C6BE /* 32px.png */,
+				EACB7BFC308AF4500006C6BE /* 40px.png */,
+				EACB7BFD308AF4500006C6BE /* style.css */,
+				EACB7BFE308AF4500006C6BE /* style.min.css */,
+				EACB7BFF308AF4500006C6BE /* throbber.gif */,
+			);
+			path = "default-dark";
+			sourceTree = "<group>";
+		};
+		EACB7C01308AF4500006C6BE /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BFA308AF4500006C6BE /* default */,
+				EACB7C00308AF4500006C6BE /* default-dark */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		EACB7C04308AF4500006C6BE /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C01308AF4500006C6BE /* themes */,
+				EACB7C02308AF4500006C6BE /* jstree.js */,
+				EACB7C03308AF4500006C6BE /* jstree.min.js */,
+			);
+			path = dist;
+			sourceTree = "<group>";
+		};
+		EACB7C0A308AF4500006C6BE /* default */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C05308AF4500006C6BE /* 32px.png */,
+				EACB7C06308AF4500006C6BE /* 40px.png */,
+				EACB7C07308AF4500006C6BE /* style.css */,
+				EACB7C08308AF4500006C6BE /* style.less */,
+				EACB7C09308AF4500006C6BE /* throbber.gif */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		EACB7C10308AF4500006C6BE /* default-dark */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C0B308AF4500006C6BE /* 32px.png */,
+				EACB7C0C308AF4500006C6BE /* 40px.png */,
+				EACB7C0D308AF4500006C6BE /* style.css */,
+				EACB7C0E308AF4500006C6BE /* style.less */,
+				EACB7C0F308AF4500006C6BE /* throbber.gif */,
+			);
+			path = "default-dark";
+			sourceTree = "<group>";
+		};
+		EACB7C15308AF4500006C6BE /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C0A308AF4500006C6BE /* default */,
+				EACB7C10308AF4500006C6BE /* default-dark */,
+				EACB7C11308AF4500006C6BE /* base.less */,
+				EACB7C12308AF4500006C6BE /* main.less */,
+				EACB7C13308AF4500006C6BE /* mixins.less */,
+				EACB7C14308AF4500006C6BE /* responsive.less */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		EACB7C25308AF4500006C6BE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C15308AF4500006C6BE /* themes */,
+				EACB7C16308AF4500006C6BE /* intro.js */,
+				EACB7C17308AF4500006C6BE /* jstree.js */,
+				EACB7C18308AF4500006C6BE /* jstree.checkbox.js */,
+				EACB7C19308AF4500006C6BE /* jstree.contextmenu.js */,
+				EACB7C1A308AF4500006C6BE /* jstree.dnd.js */,
+				EACB7C1B308AF4500006C6BE /* jstree.search.js */,
+				EACB7C1C308AF4500006C6BE /* jstree.sort.js */,
+				EACB7C1D308AF4500006C6BE /* jstree.state.js */,
+				EACB7C1E308AF4500006C6BE /* jstree.types.js */,
+				EACB7C1F308AF4500006C6BE /* jstree.unique.js */,
+				EACB7C20308AF4500006C6BE /* jstree.wholerow.js */,
+				EACB7C21308AF4500006C6BE /* misc.js */,
+				EACB7C22308AF4500006C6BE /* outro.js */,
+				EACB7C23308AF4500006C6BE /* sample.js */,
+				EACB7C24308AF4500006C6BE /* vakata-jstree.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EACB7C28308AF4500006C6BE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C26308AF4500006C6BE /* qunit.css */,
+				EACB7C27308AF4500006C6BE /* qunit.js */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		EACB7C2B308AF4500006C6BE /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C28308AF4500006C6BE /* libs */,
+				EACB7C29308AF4500006C6BE /* index.html */,
+				EACB7C2A308AF4500006C6BE /* test.js */,
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		EACB7C2E308AF4500006C6BE /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C2C308AF4500006C6BE /* d.png */,
+				EACB7C2D308AF4500006C6BE /* m.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		EACB7C31308AF4500006C6BE /* visual */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C2E308AF4500006C6BE /* screenshots */,
+				EACB7C2F308AF4500006C6BE /* d.html */,
+				EACB7C30308AF4500006C6BE /* m.html */,
+			);
+			path = visual;
+			sourceTree = "<group>";
+		};
+		EACB7C32308AF4500006C6BE /* test */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C2B308AF4500006C6BE /* unit */,
+				EACB7C31308AF4500006C6BE /* visual */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		EACB7C3C308AF4500006C6BE /* jstree */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BF4308AF4500006C6BE /* demo */,
+				EACB7C04308AF4500006C6BE /* dist */,
+				EACB7C25308AF4500006C6BE /* src */,
+				EACB7C32308AF4500006C6BE /* test */,
+				EACB7C33308AF4500006C6BE /* .gitignore */,
+				EACB7C34308AF4500006C6BE /* bower.json */,
+				EACB7C35308AF4500006C6BE /* component.json */,
+				EACB7C36308AF4500006C6BE /* composer.json */,
+				EACB7C37308AF4500006C6BE /* gruntfile.js */,
+				EACB7C38308AF4500006C6BE /* jstree.jquery.json */,
+				EACB7C39308AF4500006C6BE /* LICENSE-MIT */,
+				EACB7C3A308AF4500006C6BE /* package.json */,
+				EACB7C3B308AF4500006C6BE /* README.md */,
+			);
+			path = jstree;
+			sourceTree = "<group>";
+		};
+		EACB7C3E308AF4500006C6BE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C3C308AF4500006C6BE /* jstree */,
+				EACB7C3D308AF4500006C6BE /* FileSaver.min.js */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EACB7C42308AF4500006C6BE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C3F308AF4500006C6BE /* App.js */,
+				EACB7C40308AF4500006C6BE /* HighlightedString.js */,
+				EACB7C41308AF4500006C6BE /* TagLibrary.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EACB7C44308AF4500006C6BE /* style */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7C43308AF4500006C6BE /* app.css */,
+			);
+			path = style;
+			sourceTree = "<group>";
+		};
+		EACB7C49308AF4500006C6BE /* webNBT */ = {
+			isa = PBXGroup;
+			children = (
+				EACB7BE6308AF4500006C6BE /* assets */,
+				EACB7C3E308AF4500006C6BE /* lib */,
+				EACB7C42308AF4500006C6BE /* src */,
+				EACB7C44308AF4500006C6BE /* style */,
+				EACB7C45308AF4500006C6BE /* index.html */,
+				EACB7C46308AF4500006C6BE /* NBT.js */,
+				EACB7C47308AF4500006C6BE /* NBT.wasm */,
+				EACB7C48308AF4500006C6BE /* NBT.wat */,
+			);
+			path = webNBT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		000000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "Untitled Project" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 000000000000000000000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000011000000 /* Debug configuration for PBXProject "Untitled Project" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROJECT_UNIQUE_VALUE = SYI7FNK0;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		000000000000000012000000 /* Release configuration for PBXProject "Untitled Project" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PROJECT_UNIQUE_VALUE = SYI7FNK0;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000010000000 /* Build configuration list for PBXProject "Untitled Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000011000000 /* Debug configuration for PBXProject "Untitled Project" */,
+				000000000000000012000000 /* Release configuration for PBXProject "Untitled Project" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000000 /* Project object */;
+}
