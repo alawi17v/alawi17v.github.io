@@ -1,0 +1,17 @@
+<svg width="360" height="340" viewBox="0 0 360 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#294364" />
+      <stop offset="1" stop-color="#13243B" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="344" height="324" rx="26" fill="url(#bg)" stroke="#355173" stroke-width="2"/>
+  <ellipse cx="188" cy="304" rx="90" ry="18" fill="#0A1628" opacity="0.55"/>
+  <circle cx="176" cy="96" r="36" fill="#C69472"/>
+  <path d="M138 130C150 150 202 150 214 130V188H138V130Z" fill="#4A6F7A"/>
+  <path d="M103 186C112 170 129 163 144 168L210 191C225 197 232 214 227 229L213 272C207 289 189 298 173 293L115 273C96 266 85 245 90 226L103 186Z" fill="#5B8A87"/>
+  <path d="M220 190L260 232C270 243 268 261 256 270L247 277C235 286 218 284 209 273L180 237" stroke="#C69472" stroke-width="18" stroke-linecap="round"/>
+  <path d="M123 205L92 252C84 264 69 270 56 263L47 258C33 251 29 233 38 221L66 184" stroke="#C69472" stroke-width="18" stroke-linecap="round"/>
+  <rect x="151" y="193" width="56" height="88" rx="18" fill="#31555F"/>
+  <text x="180" y="36" text-anchor="middle" fill="#E4F0FF" font-family="sans-serif" font-size="16" opacity="0.85">Patient Placeholder</text>
+</svg>

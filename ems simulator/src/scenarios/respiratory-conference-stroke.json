@@ -1,0 +1,910 @@
+{
+  "id": "respiratory_conference_stroke",
+  "title": "Respiratory Distress - Conference Collapse",
+  "chiefComplaint": "Respiratory distress progressing to unresponsiveness",
+  "subtitle": "Adult male collapsed at a conference after dyspnea and confusion.",
+  "location": "Maple Tree Hotel Lobby / Conference Room",
+  "patientAge": 58,
+  "historyHighlights": [
+    "Confusion before collapse",
+    "Witnessed syncope",
+    "Respiratory distress"
+  ],
+  "unitLabel": "UNIT 2",
+  "sceneStatus": "ON SCENE",
+  "patientPresentation": "Large adult male, initially dyspneic, now unresponsive with airway compromise.",
+  "category": "Airway / Respiratory Emergency",
+  "finalDiagnosis": "Acute Stroke causing altered mental status and airway compromise",
+  "educationalSummary": [
+    "Early airway control prevented aspiration.",
+    "Vomiting management was critical.",
+    "Assisted ventilations reversed hypoxia.",
+    "Underlying stroke demonstrates importance of secondary assessment."
+  ],
+  "steps": [
+    {
+      "stepId": "step-1",
+      "stepNumber": 1,
+      "stepType": "info",
+      "completionLabel": "Next",
+      "allowedActions": [],
+      "vitals": {
+        "hr": {
+          "value": "--",
+          "hidden": true
+        },
+        "spo2": {
+          "value": "--",
+          "hidden": true
+        },
+        "bp": {
+          "value": "--",
+          "hidden": true
+        },
+        "rr": {
+          "value": "--",
+          "hidden": true
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "timeLimitSeconds": 50,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 0
+      },
+      "context": "It’s a warm summer day outside, the temperatures are mild, and rain is in the forecast. You are sitting with your partner when the call comes in: “Unit 2, respond to the lobby of the Maple Tree Hotel for a man with respiratory distress. \n\nApproximately one out of every four EMS calls is either airway or respiratory related."
+    },
+    {
+      "stepId": "step-2",
+      "stepNumber": 2,
+      "stepType": "mcq",
+      "prompt": "What type of equipment would you anticipate needing to treat a patient with difficulty breathing?",
+      "allowedActions": [],
+      "vitals": {
+        "hr": {
+          "value": "--",
+          "hidden": true
+        },
+        "spo2": {
+          "value": "--",
+          "hidden": true
+        },
+        "bp": {
+          "value": "--",
+          "hidden": true
+        },
+        "rr": {
+          "value": "--",
+          "hidden": true
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Oxygenation",
+      "choices": [
+        {
+          "id": "s2-a",
+          "label": "Rigid long backboard with head immobilization blocks",
+          "correctness": false,
+          "rationale": "Spinal immobilization equipment is not primary preparation for isolated respiratory distress.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s2-b",
+          "label": "Traction splint and pelvic binder",
+          "correctness": false,
+          "rationale": "Extremity/pelvic trauma equipment is not first-line for a breathing complaint.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s2-c",
+          "label": "AED pads and cardiac monitor",
+          "correctness": false,
+          "rationale": "Monitoring may be useful, but oxygen delivery is the immediate anticipated need in dyspnea.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s2-d",
+          "label": "Oxygen delivery device (nasal cannula or nonrebreather mask)",
+          "correctness": true,
+          "rationale": "Airway and oxygenation are immediate priorities in respiratory distress.",
+          "severity": "none",
+          "scoreDelta": 10
+        }
+      ],
+      "timeLimitSeconds": 55,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 5,
+        "nextStepId": "step-3"
+      },
+      "completionLabel": "Next",
+      "bannerType": "knowledge_check"
+    },
+    {
+      "stepId": "step-3",
+      "stepNumber": 3,
+      "stepType": "info",
+      "prompt": "Security reports that the patient was at a conference, suddenly complained of difficulty breathing and confusion, then passed out in his chair.",
+      "narrativeLines": [
+        "Staff moved him carefully into an aisle. Ushers are attempting basic airway support."
+      ],
+      "completionLabel": "Next",
+      "allowedActions": [],
+      "vitals": {
+        "hr": {
+          "value": "--",
+          "hidden": true
+        },
+        "spo2": {
+          "value": "--",
+          "hidden": true
+        },
+        "bp": {
+          "value": "--",
+          "hidden": true
+        },
+        "rr": {
+          "value": "--",
+          "hidden": true
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "timeLimitSeconds": 45,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 0,
+        "nextStepId": "step-4"
+      }
+    },
+    {
+      "stepId": "step-4",
+      "stepNumber": 4,
+      "stepType": "info",
+      "prompt": "Scene is safe. Conference is on break, few people remain, and there are no obvious hazards.",
+      "completionLabel": "Next",
+      "allowedActions": [],
+      "vitals": {
+        "hr": {
+          "value": "--",
+          "hidden": true
+        },
+        "spo2": {
+          "value": "--",
+          "hidden": true
+        },
+        "bp": {
+          "value": "--",
+          "hidden": true
+        },
+        "rr": {
+          "value": "--",
+          "hidden": true
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "timeLimitSeconds": 45,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 0,
+        "nextStepId": "step-5"
+      }
+    },
+    {
+      "stepId": "step-5",
+      "stepNumber": 5,
+      "stepType": "mcq",
+      "prompt": "What do you do first?",
+      "allowedActions": [
+        "getBP",
+        "checkGlucose",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "96",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "86",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "148/92",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "8 irregular",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        },
+        "glucose": {
+          "value": "124 mg/dL",
+          "hidden": true,
+          "revealByAction": "checkGlucose"
+        }
+      },
+      "scoreCategory": "Airway Management",
+      "choices": [
+        {
+          "id": "s5-a",
+          "label": "Insert an oropharyngeal airway",
+          "correctness": false,
+          "rationale": "Airway must be opened before placing an adjunct.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s5-b",
+          "label": "Begin chest compressions",
+          "correctness": false,
+          "rationale": "Compressions without confirming pulselessness is a critical error.",
+          "severity": "critical",
+          "scoreDelta": -20
+        },
+        {
+          "id": "s5-c",
+          "label": "Administer oxygen via nonrebreather",
+          "correctness": false,
+          "rationale": "Oxygen delivery is important, but airway opening comes first.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s5-d",
+          "label": "Open the airway using head-tilt-chin-lift",
+          "correctness": true,
+          "rationale": "Airway must be opened before adjunct placement or oxygen delivery.",
+          "severity": "none",
+          "scoreDelta": 15
+        }
+      ],
+      "timeLimitSeconds": 55,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 10,
+        "nextStepId": "step-6"
+      },
+      "completionLabel": "Next",
+      "bannerType": "decision"
+    },
+    {
+      "stepId": "step-6",
+      "stepNumber": 6,
+      "stepType": "mcq",
+      "prompt": "After opening airway, snoring respirations persist. What airway device will you use?",
+      "allowedActions": [
+        "getBP",
+        "checkGlucose",
+        "insertOPA",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "98",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "87",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "144/88",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "9 shallow",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        },
+        "glucose": {
+          "value": "122 mg/dL",
+          "hidden": true,
+          "revealByAction": "checkGlucose"
+        }
+      },
+      "scoreCategory": "Airway Management",
+      "choices": [
+        {
+          "id": "s6-a",
+          "label": "Nasopharyngeal airway",
+          "correctness": false,
+          "rationale": "In this unresponsive patient without gag reflex, OPA is preferred.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s6-b",
+          "label": "Oropharyngeal airway",
+          "correctness": true,
+          "rationale": "Unresponsive patient without gag reflex indicates OPA use.",
+          "severity": "none",
+          "scoreDelta": 15
+        },
+        {
+          "id": "s6-c",
+          "label": "Endotracheal tube",
+          "correctness": false,
+          "rationale": "Endotracheal placement is outside initial BLS priority in this moment.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s6-d",
+          "label": "King LT supraglottic airway",
+          "correctness": false,
+          "rationale": "Advanced adjunct selection is not first-line in this basic airway sequence.",
+          "severity": "minor",
+          "scoreDelta": -10
+        }
+      ],
+      "timeLimitSeconds": 55,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 10,
+        "nextStepId": "step-7"
+      },
+      "completionLabel": "Next",
+      "bannerType": "decision"
+    },
+    {
+      "stepId": "step-7",
+      "stepNumber": 7,
+      "stepType": "mcq",
+      "prompt": "After OPA placement, the patient gags and vomits. What do you do next?",
+      "allowedActions": [
+        "getBP",
+        "insertOPA",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "104",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "84",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "140/84",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "8 gurgling",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Recognition of Deterioration",
+      "choices": [
+        {
+          "id": "s7-a",
+          "label": "Continue ventilating through the OPA",
+          "correctness": false,
+          "rationale": "Continuing ventilation through emesis increases aspiration risk.",
+          "severity": "critical",
+          "scoreDelta": -15
+        },
+        {
+          "id": "s7-b",
+          "label": "Immediately remove OPA and roll patient onto side",
+          "correctness": true,
+          "rationale": "Protect the airway and reduce aspiration by removing OPA and positioning laterally.",
+          "severity": "none",
+          "scoreDelta": 20
+        },
+        {
+          "id": "s7-c",
+          "label": "Insert NPA",
+          "correctness": false,
+          "rationale": "NPA does not immediately address active emesis and aspiration risk.",
+          "severity": "minor",
+          "scoreDelta": -15
+        },
+        {
+          "id": "s7-d",
+          "label": "Begin chest compressions",
+          "correctness": false,
+          "rationale": "Compressions without pulselessness is a critical error.",
+          "severity": "critical",
+          "scoreDelta": -20
+        }
+      ],
+      "timeLimitSeconds": 55,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 15,
+        "nextStepId": "step-8"
+      },
+      "completionLabel": "Next"
+    },
+    {
+      "stepId": "step-8",
+      "stepNumber": 8,
+      "stepType": "mcq",
+      "prompt": "Gurgling respirations are present. You prepare a rigid suction catheter. How do you measure proper catheter depth?",
+      "allowedActions": [
+        "getBP",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "106",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "83",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "138/82",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "10 with secretions",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Suction Technique",
+      "choices": [
+        {
+          "id": "s8-a",
+          "label": "From lips to chin",
+          "correctness": false,
+          "rationale": "This measurement is not the standard for oral rigid suction insertion depth.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s8-b",
+          "label": "From corner of mouth to earlobe",
+          "correctness": true,
+          "rationale": "Measure from mouth corner to earlobe for proper insertion depth.",
+          "severity": "none",
+          "scoreDelta": 10
+        },
+        {
+          "id": "s8-c",
+          "label": "From nose to chin",
+          "correctness": false,
+          "rationale": "This is not appropriate for rigid oral catheter depth.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s8-d",
+          "label": "Estimate visually",
+          "correctness": false,
+          "rationale": "Visual estimation is less reliable than standard measurement landmarks.",
+          "severity": "minor",
+          "scoreDelta": -5
+        }
+      ],
+      "timeLimitSeconds": 50,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 5,
+        "nextStepId": "step-9"
+      },
+      "completionLabel": "Next"
+    },
+    {
+      "stepId": "step-9",
+      "stepNumber": 9,
+      "stepType": "mcq",
+      "prompt": "Suction fails to remove solid obstruction. How should you remove large debris?",
+      "allowedActions": [
+        "getBP",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "108",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "82",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "136/80",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "8 with poor air movement",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Suction Technique",
+      "choices": [
+        {
+          "id": "s9-a",
+          "label": "Blind finger sweep",
+          "correctness": false,
+          "rationale": "Blind sweeps can push debris deeper and injure airway tissues.",
+          "severity": "critical",
+          "scoreDelta": -20
+        },
+        {
+          "id": "s9-b",
+          "label": "Abdominal thrusts",
+          "correctness": false,
+          "rationale": "Patient is unresponsive with a managed airway context, so this is not the best option here.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s9-c",
+          "label": "Use Magill forceps if visible",
+          "correctness": true,
+          "rationale": "Visible debris should be removed with forceps; avoid blind maneuvers.",
+          "severity": "none",
+          "scoreDelta": 15
+        },
+        {
+          "id": "s9-d",
+          "label": "Continue suctioning indefinitely",
+          "correctness": false,
+          "rationale": "Persistent solid obstruction requires definitive visible removal.",
+          "severity": "minor",
+          "scoreDelta": -10
+        }
+      ],
+      "timeLimitSeconds": 50,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 10,
+        "nextStepId": "step-10"
+      },
+      "completionLabel": "Next"
+    },
+    {
+      "stepId": "step-10",
+      "stepNumber": 10,
+      "stepType": "mcq",
+      "prompt": "Airway is now cleared. In which position should you place the patient?",
+      "allowedActions": [
+        "getBP",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "102",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "86",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "134/78",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "10 spontaneous",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "--",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Airway Management",
+      "choices": [
+        {
+          "id": "s10-a",
+          "label": "Supine",
+          "correctness": false,
+          "rationale": "Supine positioning raises aspiration risk in this unresponsive patient.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s10-b",
+          "label": "Fowler's",
+          "correctness": false,
+          "rationale": "Recovery position better protects airway in an unresponsive breathing patient.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s10-c",
+          "label": "Trendelenburg",
+          "correctness": false,
+          "rationale": "Trendelenburg is not indicated and may worsen airway management.",
+          "severity": "minor",
+          "scoreDelta": -5
+        },
+        {
+          "id": "s10-d",
+          "label": "Recovery position",
+          "correctness": true,
+          "rationale": "Unresponsive patient with spontaneous breathing should be placed in recovery position.",
+          "severity": "none",
+          "scoreDelta": 10
+        }
+      ],
+      "timeLimitSeconds": 50,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 5,
+        "nextStepId": "step-11"
+      },
+      "completionLabel": "Next"
+    },
+    {
+      "stepId": "step-11",
+      "stepNumber": 11,
+      "stepType": "mcq",
+      "prompt": "Breathing is currently adequate, pulse is present, and SpO2 is 88%. How will you administer oxygen?",
+      "allowedActions": [
+        "getBP",
+        "checkGlucose",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "100",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "88",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "132/76",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "12 shallow",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "49",
+          "hidden": true
+        },
+        "temp": {
+          "value": "37.1 C",
+          "hidden": true
+        },
+        "glucose": {
+          "value": "126 mg/dL",
+          "hidden": true,
+          "revealByAction": "checkGlucose"
+        }
+      },
+      "scoreCategory": "Oxygenation",
+      "choices": [
+        {
+          "id": "s11-a",
+          "label": "Nasal cannula at 2 L/min",
+          "correctness": false,
+          "rationale": "This is likely inadequate for current hypoxia and clinical severity.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s11-b",
+          "label": "Nonrebreather mask at 15 L/min",
+          "correctness": true,
+          "rationale": "High-flow oxygen via NRB is appropriate for hypoxic patient with present spontaneous breathing.",
+          "severity": "none",
+          "scoreDelta": 15
+        },
+        {
+          "id": "s11-c",
+          "label": "BVM immediately",
+          "correctness": false,
+          "rationale": "At this moment respirations are adequate; optimize oxygen first.",
+          "severity": "minor",
+          "scoreDelta": -10
+        },
+        {
+          "id": "s11-d",
+          "label": "No oxygen needed",
+          "correctness": false,
+          "rationale": "SpO2 of 88% indicates hypoxia and requires oxygen therapy.",
+          "severity": "critical",
+          "scoreDelta": -10
+        }
+      ],
+      "timeLimitSeconds": 55,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 10,
+        "nextStepId": "step-12"
+      },
+      "completionLabel": "Next"
+    },
+    {
+      "stepId": "step-12",
+      "stepNumber": 12,
+      "stepType": "actions",
+      "prompt": "Condition deteriorates: cyanosis appears and respirations become shallow/slow. Perform the required interventions.",
+      "completionLabel": "Next",
+      "allowedActions": [
+        "insertNPA",
+        "beginBVM",
+        "getBP",
+        "insertOPA",
+        "checkPulse",
+        "checkSpO2",
+        "checkRespirations"
+      ],
+      "vitals": {
+        "hr": {
+          "value": "112",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "80",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "130/74",
+          "hidden": true,
+          "revealByAction": "getBP"
+        },
+        "rr": {
+          "value": "6 shallow",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "58",
+          "hidden": true
+        }
+      },
+      "scoreCategory": "Recognition of Deterioration",
+      "requiredActionSequence": [
+        "insertNPA",
+        "beginBVM"
+      ],
+      "gatingRules": [
+        {
+          "action": "insertNPA",
+          "required": true,
+          "scope": "step",
+          "message": "Insert the NPA before confirming this step."
+        },
+        {
+          "action": "beginBVM",
+          "required": true,
+          "scope": "step",
+          "message": "Begin BVM ventilations before confirming this step."
+        }
+      ],
+      "scoreOnComplete": 20,
+      "maxScore": 20,
+      "sequenceFailurePenalty": 20,
+      "successRationale": "Correct rescue sequence and timely ventilation reversed developing hypoxia.",
+      "failureRationale": "Sequence/timing was incorrect. This phase requires immediate airway adjunct and assisted ventilation.",
+      "timeoutRationale": "Failure to ventilate rapidly in respiratory failure is a major clinical miss.",
+      "timeLimitSeconds": 45,
+      "onTimeout": {
+        "behavior": "autoFailAndAdvance",
+        "scorePenalty": 20,
+        "nextStepId": "step-13"
+      },
+      "context": "Required sequence: Insert NPA, then begin BVM at 1 breath every 5-6 seconds with 100% oxygen."
+    },
+    {
+      "stepId": "step-13",
+      "stepNumber": 13,
+      "stepType": "info",
+      "prompt": "After 2 minutes of assisted ventilation, cyanosis resolves and level of consciousness improves.",
+      "narrativeLines": [
+        "Paramedics arrive and intubate the patient.",
+        "Patient is transported to the hospital."
+      ],
+      "completionLabel": "Next",
+      "allowedActions": [],
+      "vitals": {
+        "hr": {
+          "value": "98",
+          "hidden": true,
+          "revealByAction": "checkPulse"
+        },
+        "spo2": {
+          "value": "95",
+          "hidden": true,
+          "revealByAction": "checkSpO2"
+        },
+        "bp": {
+          "value": "128/74",
+          "hidden": false
+        },
+        "rr": {
+          "value": "14 assisted",
+          "hidden": true,
+          "revealByAction": "checkRespirations"
+        },
+        "etco2": {
+          "value": "42",
+          "hidden": false
+        }
+      },
+      "timeLimitSeconds": 45,
+      "onTimeout": {
+        "behavior": "penaltyAndAdvance",
+        "scorePenalty": 0
+      }
+    }
+  ]
+}
